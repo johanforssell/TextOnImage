@@ -1,0 +1,10 @@
+PODS:
+  - FXColorSpace (0.0.3)
+
+DEPENDENCIES:
+  - FXColorSpace
+
+SPEC CHECKSUMS:
+  FXColorSpace: 1cd77b8e683d2d904e43cea030496f28776320a8
+
+COCOAPODS: 0.33.1

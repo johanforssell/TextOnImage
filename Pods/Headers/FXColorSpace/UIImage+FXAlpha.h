@@ -1,0 +1,1 @@
+../../FXColorSpace/FXColorSpace/UIImage+FXAlpha.h

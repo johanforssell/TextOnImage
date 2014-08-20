@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E1599C074B4918B17FD93F /* libPods-TextOnImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 72B5C571C0414343A6C1A906 /* libPods-TextOnImage.a */; };
 		701D50CB19A48F0400D75403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50CA19A48F0400D75403 /* Foundation.framework */; };
 		701D50CD19A48F0400D75403 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50CC19A48F0400D75403 /* CoreGraphics.framework */; };
 		701D50CF19A48F0400D75403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50CE19A48F0400D75403 /* UIKit.framework */; };
@@ -16,22 +17,7 @@
 		701D50DE19A48F0400D75403 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 701D50DC19A48F0400D75403 /* Main.storyboard */; };
 		701D50E119A48F0400D75403 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D50E019A48F0400D75403 /* ViewController.m */; };
 		701D50E319A48F0400D75403 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 701D50E219A48F0400D75403 /* Images.xcassets */; };
-		701D50EA19A48F0400D75403 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50E919A48F0400D75403 /* XCTest.framework */; };
-		701D50EB19A48F0400D75403 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50CA19A48F0400D75403 /* Foundation.framework */; };
-		701D50EC19A48F0400D75403 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 701D50CE19A48F0400D75403 /* UIKit.framework */; };
-		701D50F419A48F0400D75403 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 701D50F219A48F0400D75403 /* InfoPlist.strings */; };
-		701D50F619A48F0400D75403 /* TextOnImageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 701D50F519A48F0400D75403 /* TextOnImageTests.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		701D50ED19A48F0400D75403 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 701D50BF19A48F0300D75403 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 701D50C619A48F0400D75403;
-			remoteInfo = TextOnImage;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		701D50C719A48F0400D75403 /* TextOnImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextOnImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -48,11 +34,9 @@
 		701D50DF19A48F0400D75403 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		701D50E019A48F0400D75403 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		701D50E219A48F0400D75403 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		701D50E819A48F0400D75403 /* TextOnImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextOnImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		701D50E919A48F0400D75403 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		701D50F119A48F0400D75403 /* TextOnImageTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TextOnImageTests-Info.plist"; sourceTree = "<group>"; };
-		701D50F319A48F0400D75403 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		701D50F519A48F0400D75403 /* TextOnImageTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextOnImageTests.m; sourceTree = "<group>"; };
+		72B5C571C0414343A6C1A906 /* libPods-TextOnImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TextOnImage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9871007508642BD81987CAF /* Pods-TextOnImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextOnImage.xcconfig"; path = "Pods/Pods-TextOnImage.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,16 +47,7 @@
 				701D50CD19A48F0400D75403 /* CoreGraphics.framework in Frameworks */,
 				701D50CF19A48F0400D75403 /* UIKit.framework in Frameworks */,
 				701D50CB19A48F0400D75403 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		701D50E519A48F0400D75403 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				701D50EA19A48F0400D75403 /* XCTest.framework in Frameworks */,
-				701D50EC19A48F0400D75403 /* UIKit.framework in Frameworks */,
-				701D50EB19A48F0400D75403 /* Foundation.framework in Frameworks */,
+				22E1599C074B4918B17FD93F /* libPods-TextOnImage.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,9 +58,9 @@
 			isa = PBXGroup;
 			children = (
 				701D50D019A48F0400D75403 /* TextOnImage */,
-				701D50EF19A48F0400D75403 /* TextOnImageTests */,
 				701D50C919A48F0400D75403 /* Frameworks */,
 				701D50C819A48F0400D75403 /* Products */,
+				C9871007508642BD81987CAF /* Pods-TextOnImage.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -93,7 +68,6 @@
 			isa = PBXGroup;
 			children = (
 				701D50C719A48F0400D75403 /* TextOnImage.app */,
-				701D50E819A48F0400D75403 /* TextOnImageTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -105,6 +79,7 @@
 				701D50CC19A48F0400D75403 /* CoreGraphics.framework */,
 				701D50CE19A48F0400D75403 /* UIKit.framework */,
 				701D50E919A48F0400D75403 /* XCTest.framework */,
+				72B5C571C0414343A6C1A906 /* libPods-TextOnImage.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,24 +109,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		701D50EF19A48F0400D75403 /* TextOnImageTests */ = {
-			isa = PBXGroup;
-			children = (
-				701D50F519A48F0400D75403 /* TextOnImageTests.m */,
-				701D50F019A48F0400D75403 /* Supporting Files */,
-			);
-			path = TextOnImageTests;
-			sourceTree = "<group>";
-		};
-		701D50F019A48F0400D75403 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				701D50F119A48F0400D75403 /* TextOnImageTests-Info.plist */,
-				701D50F219A48F0400D75403 /* InfoPlist.strings */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -159,9 +116,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 701D50F919A48F0400D75403 /* Build configuration list for PBXNativeTarget "TextOnImage" */;
 			buildPhases = (
+				D8E47ABBC4CD44CB989B246C /* Check Pods Manifest.lock */,
 				701D50C319A48F0400D75403 /* Sources */,
 				701D50C419A48F0400D75403 /* Frameworks */,
 				701D50C519A48F0400D75403 /* Resources */,
+				8C0EA58A717846C2A1CD3D62 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -172,24 +131,6 @@
 			productReference = 701D50C719A48F0400D75403 /* TextOnImage.app */;
 			productType = "com.apple.product-type.application";
 		};
-		701D50E719A48F0400D75403 /* TextOnImageTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 701D50FC19A48F0400D75403 /* Build configuration list for PBXNativeTarget "TextOnImageTests" */;
-			buildPhases = (
-				701D50E419A48F0400D75403 /* Sources */,
-				701D50E519A48F0400D75403 /* Frameworks */,
-				701D50E619A48F0400D75403 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				701D50EE19A48F0400D75403 /* PBXTargetDependency */,
-			);
-			name = TextOnImageTests;
-			productName = TextOnImageTests;
-			productReference = 701D50E819A48F0400D75403 /* TextOnImageTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -198,11 +139,6 @@
 			attributes = {
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "People That Make";
-				TargetAttributes = {
-					701D50E719A48F0400D75403 = {
-						TestTargetID = 701D50C619A48F0400D75403;
-					};
-				};
 			};
 			buildConfigurationList = 701D50C219A48F0300D75403 /* Build configuration list for PBXProject "TextOnImage" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -218,7 +154,6 @@
 			projectRoot = "";
 			targets = (
 				701D50C619A48F0400D75403 /* TextOnImage */,
-				701D50E719A48F0400D75403 /* TextOnImageTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,15 +169,40 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		701D50E619A48F0400D75403 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8C0EA58A717846C2A1CD3D62 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				701D50F419A48F0400D75403 /* InfoPlist.strings in Resources */,
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-TextOnImage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
 		};
-/* End PBXResourcesBuildPhase section */
+		D8E47ABBC4CD44CB989B246C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		701D50C319A48F0400D75403 /* Sources */ = {
@@ -255,23 +215,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		701D50E419A48F0400D75403 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				701D50F619A48F0400D75403 /* TextOnImageTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		701D50EE19A48F0400D75403 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 701D50C619A48F0400D75403 /* TextOnImage */;
-			targetProxy = 701D50ED19A48F0400D75403 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		701D50D319A48F0400D75403 /* InfoPlist.strings */ = {
@@ -288,14 +232,6 @@
 				701D50DD19A48F0400D75403 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		701D50F219A48F0400D75403 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				701D50F319A48F0400D75403 /* en */,
-			);
-			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -373,6 +309,7 @@
 		};
 		701D50FA19A48F0400D75403 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9871007508642BD81987CAF /* Pods-TextOnImage.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -386,6 +323,7 @@
 		};
 		701D50FB19A48F0400D75403 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9871007508642BD81987CAF /* Pods-TextOnImage.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -394,46 +332,6 @@
 				INFOPLIST_FILE = "TextOnImage/TextOnImage-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-		701D50FD19A48F0400D75403 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextOnImage.app/TextOnImage";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextOnImage/TextOnImage-Prefix.pch";
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = "TextOnImageTests/TextOnImageTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
-			};
-			name = Debug;
-		};
-		701D50FE19A48F0400D75403 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/TextOnImage.app/TextOnImage";
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-					"$(DEVELOPER_FRAMEWORKS_DIR)",
-				);
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "TextOnImage/TextOnImage-Prefix.pch";
-				INFOPLIST_FILE = "TextOnImageTests/TextOnImageTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
 		};
@@ -456,14 +354,7 @@
 				701D50FB19A48F0400D75403 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		701D50FC19A48F0400D75403 /* Build configuration list for PBXNativeTarget "TextOnImageTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				701D50FD19A48F0400D75403 /* Debug */,
-				701D50FE19A48F0400D75403 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

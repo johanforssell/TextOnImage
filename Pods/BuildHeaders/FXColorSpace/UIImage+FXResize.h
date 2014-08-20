@@ -1,0 +1,1 @@
+../../FXColorSpace/FXColorSpace/UIImage+FXResize.h
